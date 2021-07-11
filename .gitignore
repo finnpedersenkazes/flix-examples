@@ -1,6 +1,8 @@
 
 # Ignore build output directories.
 **/target
+**/package-lock.json
+
 
 # Ignore any files named .DS_Store, which is a common file on macOS.
 **/.DS_Store
