@@ -7,3 +7,5 @@ Mike likes what Tony dislikes and Mike dislikes what Tony likes.
 Tony likes both rain and snow. 
 
 Who among the members are climbers?
+
+*Source: I don't remember where this origins from, but I have seen that it is still used.*
