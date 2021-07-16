@@ -6,16 +6,16 @@ enum Boolean {
 
 instance ToString[Boolean] {
     pub def toString(x: Boolean): String = match x {
-        case False    => "False"
-        case True    => "True"
+        case False  => "False"
+        case True   => "True"
     }
 }
 
 instance Eq[Boolean] {
     pub def eq(x: Boolean, y: Boolean): Bool = match (x, y) {
         case (False, False) => true
-        case (True, True) => true
-        case _ => false
+        case (True, True)   => true
+        case _              => false
     }
 }
 
@@ -36,7 +36,7 @@ instance Order[Boolean] {
     pub def compare(x: Boolean, y: Boolean): Comparison = match (x, y) {
         case (False, False)     => EqualTo
         case (True, True)       => EqualTo
-        case (False, _)         => LessThan
+        case (False, True)      => LessThan
         case _                  => GreaterThan
     }
 }
